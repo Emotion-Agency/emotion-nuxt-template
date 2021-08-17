@@ -31,7 +31,7 @@ function fontsStyle(cb) {
   {
     rel: 'preload',
     type: 'font/woff2',
-    href: './fonts/${fontname}.woff2',
+    href: '/fonts/${fontname}.woff2',
     crossorigin: 'anonymous',
     as: 'font',
   },\r\n`,

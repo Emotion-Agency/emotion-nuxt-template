@@ -8,7 +8,7 @@ function images() {
   return src(config.src.img)
     .pipe(
       webp({
-        quality: 75,
+        quality: 86,
       })
     )
     .pipe(dest(config.build.img))
@@ -16,8 +16,8 @@ function images() {
     .pipe(
       imagemin([
         imagemin.gifsicle({ interlaced: true }),
-        imagemin.mozjpeg({ quality: 75, progressive: true }),
-        imagemin.optipng({ optimizationLevel: 3 }),
+        imagemin.mozjpeg({ quality: 88, progressive: true }),
+        imagemin.optipng({ optimizationLevel: 1 }),
         imagemin.svgo({
           plugins: [{ removeViewBox: false }, { cleanupIDs: false }],
         }),

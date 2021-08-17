@@ -40,9 +40,14 @@ export default {
   pwa: {
     manifest: {
       lang: 'en',
+      theme_color: '#FDFAF3',
+    },
+    icon: {
+      fileName: 'icon.png',
     },
   },
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {},
+  // generate: { fallback: '404.html' },
 }
