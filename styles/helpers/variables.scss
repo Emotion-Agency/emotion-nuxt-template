@@ -1,7 +1,7 @@
 :root {
-  --black: #131116;
-  --accent: #a03adb;
-  --lg: #f1f1f1;
+  --black: #212022;
+  --bg: #f4f4f4;
+  --white: #ffffff;
   --red: #e73737;
 }
 
@@ -17,11 +17,10 @@ $br2: 960px;
 $br3: 768px;
 $br4: 460px;
 
-//fonts
-$def-size: size(24, 16);
-
 //easings
 $easing: cubic-bezier(0.16, 1, 0.3, 1);
 
 // layouts
-$g-offset: size(160, 20);
+$g-offset: vw(56);
+$g-sm: 32px;
+$g-s: 20px;
