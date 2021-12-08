@@ -1,6 +1,7 @@
 <template>
   <div id="app">
     <app-grid />
+    <ui-loader />
     <div id="scroll-container">
       <Nuxt />
     </div>
@@ -9,8 +10,10 @@
 
 <script>
 import AppGrid from '~/components/AppGrid.vue'
+import UiLoader from '~/components/UiLoader.vue'
+
 export default {
-  components: { AppGrid },
+  components: { AppGrid, UiLoader },
 
   async mounted() {
     const { default: supportsWebP } = await import('supports-webp')
