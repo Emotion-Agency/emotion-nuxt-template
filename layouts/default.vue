@@ -23,6 +23,8 @@ export default {
     } else {
       this.$store.commit('app/setIsWebp', false)
     }
+    const { hello } = await import('~/scripts/utils/hello')
+    hello()
 
     const { winSizes } = await import('~/scripts/utils/winSizes')
     const { resize } = await import('@emotionagency/utils')

@@ -3,7 +3,7 @@
   height: var(--vh);
   overflow: hidden;
   will-change: scroll-position;
-  @include media('<=960px') {
+  @media (max-width: '960px') {
     overflow-y: auto;
     overflow-x: hidden;
   }
@@ -31,7 +31,7 @@
   overflow: hidden;
   padding: 2px;
   padding-left: 0px;
-  @include media('>#{$br2}') {
+  @media (min-width: $br2) {
     &:hover {
       .scrollbar__thumb {
         width: 10px;

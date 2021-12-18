@@ -11,7 +11,7 @@
   align-items: center;
   background-color: var(--white);
   border-radius: 50%;
-  @include media('<=#{$br1}') {
+  @media (max-width: $br1) {
     width: size(80, 46);
     height: size(80, 46);
   }

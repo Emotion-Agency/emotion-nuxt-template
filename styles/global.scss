@@ -9,11 +9,12 @@ html {
   height: 100vh;
   height: var(--vh);
   overflow: hidden;
+  font-size: vw(16);
 }
 
 body {
   color: var(--black);
-  font-size: vw(20);
+  font-size: 1rem;
   // @include reg;
   height: 100vh;
   height: var(--vh);
