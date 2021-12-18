@@ -3,11 +3,13 @@
   position: relative;
   padding-left: $g-offset;
   padding-right: $g-offset;
-  @include media('<=#{$br1}') {
+
+  @media (max-width: $br1) {
     padding-left: $g-sm;
     padding-right: $g-sm;
   }
-  @include media('<=#{$br3}') {
+
+  @media (max-width: $br3) {
     padding-left: $g-s;
     padding-right: $g-s;
   }
@@ -28,29 +30,21 @@
   grid-template-columns: repeat(12, 1fr);
   column-gap: vw(30);
   grid-auto-flow: column;
-  @include media('<=#{$br1}') {
+  @media (max-width: $br1) {
     column-gap: 30px;
   }
-  @include media('<=#{$br4}') {
+  @media (max-width: $br4) {
     column-gap: 20px;
     grid-template-columns: repeat(4, 1fr);
   }
 }
 
-@mixin col-s($idx) {
-  grid-column-start: $idx;
+@mixin col($start, $end) {
+  grid-column: #{$start}/#{$end};
 }
 
-@mixin col-end($idx) {
-  grid-column-end: $idx + 1;
-}
-
-@mixin row-s($idx) {
-  grid-row-start: $idx;
-}
-
-@mixin row-end($idx) {
-  grid-row-end: $idx + 1;
+@mixin row($start, $end) {
+  grid-row: #{$start}/#{$end + 1};
 }
 
 .section {
@@ -61,13 +55,13 @@
   &--pb {
     padding-bottom: vw(300);
   }
-  @include media('<=#{$br1}') {
+  @media (max-width: $br1) {
     padding-top: 200px;
     &--pb {
       padding-bottom: 200px;
     }
   }
-  @include media('<=#{$br3}') {
+  @media (max-width: $br3) {
     padding-top: 120px;
     &--pb {
       padding-bottom: 120px;
