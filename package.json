@@ -18,7 +18,9 @@
     "@nuxtjs/pwa": "^3.3.5",
     "core-js": "^3.9.1",
     "gsap": "npm:@gsap/member",
+    "imagesloaded": "^4.1.4",
     "nuxt": "^2.15.3",
+    "split-type": "^0.2.5",
     "supports-webp": "^2.0.1"
   },
   "devDependencies": {
@@ -35,8 +37,8 @@
     "gulp-ttf2woff2": "3.0.0",
     "gulp-util": "^3.0.8",
     "gulp-webp": "^4.0.1",
-    "sass": "^1.43.4",
     "prettier": "^2.2.1",
+    "sass": "^1.43.4",
     "sass-loader": "^10.1.1"
   }
 }
