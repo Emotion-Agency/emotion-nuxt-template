@@ -13,8 +13,8 @@
     "lint": "yarn lint:js"
   },
   "dependencies": {
-    "@emotionagency/smoothscroll": "^0.1.8",
-    "@emotionagency/utils": "^0.0.8",
+    "@emotionagency/smoothscroll": "^1.0.0",
+    "@emotionagency/utils": "^1.0.0",
     "@nuxtjs/pwa": "^3.3.5",
     "core-js": "^3.9.1",
     "gsap": "npm:@gsap/member",

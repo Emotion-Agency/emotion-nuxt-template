@@ -932,25 +932,17 @@
   resolved "https://registry.yarnpkg.com/@csstools/convert-colors/-/convert-colors-1.4.0.tgz#ad495dc41b12e75d588c6db8b9834f08fa131eb7"
   integrity sha512-5a6wqoJV/xEdbRNKVo6I4hO3VjyDq//8q2f9I6PBAvMesJHFauXDorcNCsr9RzvsZnaWi5NYCcfyqP1QeFHFbw==
 
-"@emotionagency/smoothscroll@^0.1.8":
-  version "0.1.9"
-  resolved "https://registry.yarnpkg.com/@emotionagency/smoothscroll/-/smoothscroll-0.1.9.tgz#b196b5a5ed2ea1c976ebdbb7eaffd71d37b956fe"
-  integrity sha512-nEBxPi/OJrnbiuyM4M5FLPlA44K32RIR8aRdJjoGvcpJALilNDVZAQjBL+JskswSY3G7T4cDUADCHELXdHyhng==
+"@emotionagency/smoothscroll@^1.0.0":
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/@emotionagency/smoothscroll/-/smoothscroll-1.0.0.tgz#eba9e2526d271eddae08b5ad69d153f2c1b66136"
+  integrity sha512-nxDj3Hwm9ZNEoclEM9Y0AdY02kMtI3qbXdBMv84fxI/vMxcwkKOxgfkjVaBKybW3Q8GD+66YZd4wsf5p5Fyu3A==
   dependencies:
-    "@emotionagency/utils" "0.0.6"
     virtual-scroll "^2.1.1"
 
-"@emotionagency/utils@0.0.6":
-  version "0.0.6"
-  resolved "https://registry.yarnpkg.com/@emotionagency/utils/-/utils-0.0.6.tgz#978ea5050d680d18f70386b33060ead5a859a32c"
-  integrity sha512-ARdRJXhk1Y8PeWuMO4Hfjp+H1n+Xigi0BOf6syDZtbLEWHjY7Aa1gGepgk4UBBxmtFW+1gkt+/K8aDF1SUndyA==
-  dependencies:
-    debounce "^1.2.0"
-
-"@emotionagency/utils@^0.0.8":
-  version "0.0.8"
-  resolved "https://registry.yarnpkg.com/@emotionagency/utils/-/utils-0.0.8.tgz#80cad5c6a4fdc8877ea61140bbbbfaf176d9bab5"
-  integrity sha512-N3YDLSXJgXqhuzxTLAAWHoG/D0vT39XcDnqrLtIo25HApMY9LRXpqpzXkwvVIlZ/6u9buFzbC+PPc0KOSWEa/g==
+"@emotionagency/utils@^1.0.0":
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/@emotionagency/utils/-/utils-1.0.0.tgz#79f51119415094430b2c5e6a4eed443a2e08be35"
+  integrity sha512-3Knsbzeih8AJTZ+/2rGWxI0bqnP4hMpJs0rMEeBmZE5XTYlapninZkkrQdqkWKar9BV7cGmn7YKJmODN8D4IxQ==
   dependencies:
     debounce "^1.2.0"
 
