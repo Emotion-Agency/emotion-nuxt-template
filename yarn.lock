@@ -947,10 +947,10 @@
   dependencies:
     debounce "^1.2.0"
 
-"@emotionagency/utils@^0.0.7":
-  version "0.0.7"
-  resolved "https://registry.yarnpkg.com/@emotionagency/utils/-/utils-0.0.7.tgz#ff21f75624110b3cbbfcbb0a5c89c2d4e32c7a32"
-  integrity sha512-7YIbBezR0I+tHhMLt2HyEhHpgjgx+ZYp5NRttGBlUf7ysA/GSZYTSRuLZxV330AnNorcI1wwvVORKesbOP8WyQ==
+"@emotionagency/utils@^0.0.8":
+  version "0.0.8"
+  resolved "https://registry.yarnpkg.com/@emotionagency/utils/-/utils-0.0.8.tgz#80cad5c6a4fdc8877ea61140bbbbfaf176d9bab5"
+  integrity sha512-N3YDLSXJgXqhuzxTLAAWHoG/D0vT39XcDnqrLtIo25HApMY9LRXpqpzXkwvVIlZ/6u9buFzbC+PPc0KOSWEa/g==
   dependencies:
     debounce "^1.2.0"
 

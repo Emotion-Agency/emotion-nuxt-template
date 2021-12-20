@@ -14,7 +14,7 @@
   },
   "dependencies": {
     "@emotionagency/smoothscroll": "^0.1.8",
-    "@emotionagency/utils": "^0.0.7",
+    "@emotionagency/utils": "^0.0.8",
     "@nuxtjs/pwa": "^3.3.5",
     "core-js": "^3.9.1",
     "gsap": "npm:@gsap/member",

@@ -40,7 +40,7 @@
 }
 
 @mixin col($start, $end) {
-  grid-column: #{$start}/#{$end};
+  grid-column: #{$start}/#{$end + 1};
 }
 
 @mixin row($start, $end) {

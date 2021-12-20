@@ -1,6 +1,6 @@
 import gsap from 'gsap'
+import { delayPromise } from '@emotionagency/utils'
 import { textLineAnimation } from './textLineAnimation'
-import { delayPromise } from './utils/delay'
 
 const ease = 'expo.out'
 
