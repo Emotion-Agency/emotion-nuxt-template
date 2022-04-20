@@ -17,7 +17,7 @@
     "@emotionagency/utils": "latest",
     "@nuxtjs/pwa": "^3.3.5",
     "core-js": "^3.9.1",
-    "gsap": "npm:@gsap/member",
+    "gsap": "^3.10.3",
     "imagesloaded": "^4.1.4",
     "nuxt": "^2.15.3",
     "split-type": "^0.2.5",
